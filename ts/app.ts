@@ -12,7 +12,7 @@ enum department {
 }
 
 type role = [number | string, string]
-type personName = 'Ravi' | 'Keerthu'
+type personName = 'John' | 'Doe'
 
 const person: {
     name: personName
@@ -21,9 +21,9 @@ const person: {
     role: role
     department: department
 } = {
-    name: 'Ravi',
-    age: 35,
-    interests: ['crypto', 'stocks'],
+    name: 'John',
+    age: 21,
+    interests: ['Travel', 'Photography'],
     role: ['Director', 'Developer'],
     department: department.CSE,
 }
